@@ -46,26 +46,26 @@ Follow these steps to run **GlobalTravelers** on your local machine:
 ```bash
 git clone https://github.com/yourusername/GlobalTravelers.git
 
- ** 2. Navigate to the Project Folder :**
+ 2. Navigate to the Project Folder :
 bash
 
 cd GlobalTravelers
 
-** 3. Install Backend Dependencies: **
+ 3. Install Backend Dependencies: 
 bash
 
 cd backend
 
 npm install
 
-** 4. Install Frontend Dependencies: **
+ 4. Install Frontend Dependencies: 
 bash
 
 cd frontend
 
 npm install
 
-** 5. Set Up Environment Variables: **
+5. Set Up Environment Variables: 
 
 Create a .env file in the backend directory with the following:
 
@@ -75,7 +75,7 @@ JWT_SECRET=your_jwt_secret_key
 
 MONGO_URI=your_mongo_connection_string
 
-** 6. Run the Backend Server: **
+6. Run the Backend Server: 
 bash
 
 npm start
